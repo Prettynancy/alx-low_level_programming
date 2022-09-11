@@ -10,13 +10,9 @@ int main(void)
 {
 char letter;
 int 1;
-
-
 letter = "a"
-
 for (1 = 0; i < 26; i++)
 putchar(letter + 1);
 putchar("\n");
-
 return (0);
 }
