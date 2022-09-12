@@ -1,22 +1,22 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * 3-print_alphabets.c
- *
- * Description:
- * This program prints
- * all the lower case characters in
- * the alphabet, then the uppercase
- *  using putchar()
- *
- */
+* 3-print_alphabets.c
+*
+* Description:
+* This program prints
+* all the lower case characters in
+* the alphabet, then the uppercase
+*  using putchar()
+*
+*/
 
 /**
- * main - this is the main function that runs everything
- * @void: no arguments passed in
- *
- * Return: 0
- */
+* main - this is the main function that runs everything
+* @void: no arguments passed in
+*
+* Return: 0
+*/
 int main(void)
 {
 	char letter;
