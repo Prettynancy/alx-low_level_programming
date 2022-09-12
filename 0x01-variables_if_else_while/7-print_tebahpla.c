@@ -17,13 +17,13 @@
   */
 int main(void)
 {
-char letter;
-int i;
+	char letter;
+	int i;
 
-letter = a;
+	letter = 'a';
 
-for (i = 25; i >= 0; i--)
-putchar(letter + i);
-putchar(n);
-return (0);
+	for (i = 25; i >= 0; i--)
+		putchar(letter + i);
+	putchar('/n');
+	return (0);
 }

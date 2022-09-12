@@ -16,16 +16,16 @@
  */
 int main(void)
 {
-char letter, num;
-int i;
+	char letter, num;
+	int i;
 
-letter = a;
-num = 0;
+	letter = 'a';
+	num = '0';
 
-for (i = 0; i < 10; i++)
-putchar(num + i);
-for (i = 0; i < 6; i++)
-putchar(letter + i);
-putchar(n);
-return (0);
+	for (i = 0; i < 10; i++)
+		putchar(num + i);
+	for (i = 0; i < 6; i++)
+		putchar(letter + i);
+	putchar(n);
+	return (0);
 }

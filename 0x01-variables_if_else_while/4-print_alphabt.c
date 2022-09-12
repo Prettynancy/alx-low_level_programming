@@ -21,11 +21,11 @@ int main(void)
 	char letter;
 	int i;
 
-	letter = a;
+	letter = 'a';
 
 	for (i = 0; i < 26; i++)
-		if (!(letter + i == q || letter + i == e))
+		if (!(letter + i == 'q' || letter + i == 'e'))
 			putchar(letter + i);
-	putchar(n);
+	putchar('/n');
 	return (0);
 }
