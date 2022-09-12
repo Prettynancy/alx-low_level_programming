@@ -28,7 +28,7 @@ int main(void)
 		putchar(letter + i);
 	letter = 'A';
 	for (i = 0; i < 26; i++)
-		putchar(letter + i);
-	putchar('/n');
+		putchar(letter + i)
+	putchar('\n');
 	return (0);
 :}
