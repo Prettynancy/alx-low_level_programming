@@ -20,6 +20,7 @@ int main(void)
 {
 	char letter;
 	int i;
+
 	letter = 'a';
 
 	for (i = 0; i < 26; i++)
