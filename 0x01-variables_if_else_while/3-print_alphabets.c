@@ -22,13 +22,13 @@ int main(void)
 	char letter;
 	int i;
 
-	letter = a;
+	letter = 'a';
 
 	for (i = 0; i < 26; i++)
 		putchar(letter + i);
-	letter = A;
+	letter = 'A';
 	for (i = 0; i < 26; i++)
 		putchar(letter + i);
-	putchar(n);
+	putchar('/'n);
 	return (0);
-}
+:}
