@@ -7,7 +7,7 @@
  * This program prints
  * all the lower case characters in
  * the alphabet, then the uppercase
- * using putchar()
+ *  using putchar()
  *
  */
 
