@@ -26,6 +26,6 @@ int main(void)
 		putchar(num + i);
 	for (i = 0; i < 6; i++)
 		putchar(letter + i);
-	putchar(n);
+	putchar('\n');
 	return (0);
 }
