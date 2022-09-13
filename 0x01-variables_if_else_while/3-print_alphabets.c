@@ -1,31 +1,21 @@
-#include <time.h>
 #include <stdio.h>
-/*
- * 3-print_alphabets.c 
- * Description:
- * This program prints
- * all the lower case characters in
- * the alphabet, then the uppercase
- * using putchar()
- */
 
 /**
- * main - this is the main function that runs everything
- * @void: no arguments passed i
- * Return: 0
+ * main - Prints the alphabet in lowercase, and then in uppercase.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	char letter;
-	int i;
 
-	letter = 'a';
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	for (i = 0; i < 26; i++)
-		putchar(letter + i);
-	letter = 'A';
-	for (i = 0; i < 26; i++)
-		putchar(letter + i);
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+
 	putchar('\n');
+
 	return (0);
 }
