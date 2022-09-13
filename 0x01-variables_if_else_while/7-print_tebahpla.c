@@ -10,11 +10,11 @@
  */
 
 /**
-  * main - this is the main function that runs everything
-  * @void: no arguments passed in
-  *
-  * Return: 0
-  */
+ * main - this is the main function that runs everything
+ * @void: no arguments passed in
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	char letter;
@@ -24,6 +24,6 @@ int main(void)
 
 	for (i = 25; i >= 0; i--)
 		putchar(letter + i);
-	putchar('/n');
+	putchar('\n');
 	return (0);
 }
