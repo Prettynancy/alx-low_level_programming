@@ -22,7 +22,7 @@ int main(void)
 	char letter;
 	int i;
 
-	letter = 'a';;
+	letter = 'a';
 
 	for (i = 0; i < 26; i++)
 		putchar(letter + i);
