@@ -1,14 +1,14 @@
 /**
 
-*main- prints the largest prime factor
+ * main- prints the largest prime factor
 
-*of a number
+ * of a number
 
-*
+ *
 
-*Return: returns 0
+ * Return: returns 0
 
-*/
+ **/
 
 
 
