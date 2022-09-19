@@ -1,0 +1,1 @@
+pointers, sttings amd arrays
