@@ -98,4 +98,3 @@ char **strtow(char *str)
 	else
 		return (NULL);
 }
-
